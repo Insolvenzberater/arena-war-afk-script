@@ -14,7 +14,7 @@ AutoHotkey script for automating Arena War AFK grinding in GTA V Enhanced.
 - GTA V Enhanced
 - English or german game language
 - FindText included in `Lib/`
-- Spawn Point set to mansion or any other house that has the bed to the right if waking up when logging into GTA Online!!!
+- <span style="color:red;">Spawn Point set to mansion or any other house that has the bed to the right if waking up when logging into GTA Online!!!</span>
 
 ## Setup
 1. Start the script as admin
