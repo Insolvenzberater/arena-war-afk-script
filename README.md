@@ -16,7 +16,8 @@ AutoHotkey script for automating Arena War AFK grinding in GTA V Enhanced.
 - FindText included in `Lib/`
 
 ## Setup
-1. Start the script as admin (will auto start as admin. because of blockinput.) (you can delete the admin thing on top of the ahk to disable that. but it will bug your script out if u move mouse or keyboard. so admin is preferable)
+1. Start the script as admin
+     (will auto start as admin. because of blockinput.) (you can delete the admin thing on top of the ahk to disable that. but it will bug your script out if u move mouse or keyboard. so admin is preferable)
 2. Select launcher, role and player count
 3. Enter Rockstar names and FindText strings (FindText Tutorial: https://www.youtube.com/watch?v=OZOwasW00fo)
 4. Save settings
