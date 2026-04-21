@@ -1,0 +1,1 @@
+# arena-war-afk-script
