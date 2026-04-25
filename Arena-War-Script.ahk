@@ -220,15 +220,15 @@ While (Toggle)
     Send {vk25sc14B Down}
     RSleep(70)
     Send {vk25sc14B Up}
-    RSleep(300)
+    RSleep(350)
     Send {vk25sc14B Down}
     RSleep(70)
     Send {vk25sc14B Up}
-    RSleep(300)
+    RSleep(350)
     Send {vk25sc14B Down}
     RSleep(70)
     Send {vk25sc14B Up}
-    RSleep(300)
+    RSleep(350)
 
     Send {vk26sc148 Down}
     RSleep(70)
@@ -477,8 +477,8 @@ Return
 restartGTA(isWinner)
 {
     ;   Timings Table
-    ;       RSleep(60)      -->     Button down presses
-    ;       RSleep(300)     -->     After Button up presses (General)
+    ;       RSleep(80)      -->     Button down presses
+    ;       RSleep(350)     -->     After Button up presses (General)
     ;       RSleep(500)     -->     After pressing enter during the traversal in the tab itself
     ;       RSleep(700)     -->     moving to tiles in GTA Main Menu
     ;       RSleep(800)     -->     If moving to Online Tabs and then the next button is enter (GTAOnline menu needs some time to register enter after tab switching)
@@ -500,10 +500,10 @@ restartGTA(isWinner)
     Process, Close, GTA5_Enhanced.exe
 
     ; 3. Sicherheitspause (damit der RAM geleert wird und Social Club sich fängt)
-    Sleep, 15000
+    RSleep(20000)
 
     ApplyRequiredGTASettings()
-
+    RSleep(5000)
     ; 4. GTA neu starten
     if (LauncherMode = 1)
     {
@@ -541,7 +541,7 @@ restartGTA(isWinner)
     if (SKIP_Button_R != 0)
     {
         Send {vk0Dsc1C Down}
-        RSleep(60)
+        RSleep(80)
         Send {vk0Dsc1C Up}
         RSleep(1000)
 
@@ -558,7 +558,7 @@ restartGTA(isWinner)
     {
         RSleep(1000)
         Send {vk24sc147 Down}
-        RSleep(60)
+        RSleep(80)
         Send {vk24sc147 Up}
         RSleep(1000)
         ParkMouse()
@@ -602,7 +602,7 @@ restartGTA(isWinner)
         {
             RSleep(1000)
             Send {vk24sc147 Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk24sc147 Up}
             RSleep(1000)
             ParkMouse()
@@ -645,7 +645,7 @@ restartGTA(isWinner)
             Loop
             {
                 Send {vk45sc12 Down}
-                RSleep(60)
+                RSleep(80)
                 Send {vk45sc12 Up}
                 RSleep(700)
                 (MAINMENU_Story_R:=SafeFindText(X, Y, MAINMENU_Story))
@@ -653,7 +653,7 @@ restartGTA(isWinner)
 
             Sleep, 500
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(1000)
             ParkMouse()
@@ -672,45 +672,45 @@ restartGTA(isWinner)
             Sleep, 15000
 
             Send {vk1Bsc01 Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk1Bsc01 Up}
             RSleep(1000)
 
             Loop, 5
             {
                 Send {vk27sc14D Down}
-                RSleep(60)
+                RSleep(80)
                 Send {vk27sc14D Up}
-                RSleep(300)
+                RSleep(350)
             }
             RSleep(800)
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(800)
 
             Send {vk26sc148 Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk26sc148 Up}
-            RSleep(300)
+            RSleep(350)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Send {vk28sc150 Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk28sc150 Up}
-            RSleep(300)
+            RSleep(350)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(3000)
             ParkMouse()
@@ -723,7 +723,7 @@ restartGTA(isWinner)
                 if (continueOnline_R)
                 {
                     Send {vk0Dsc1C Down}
-                    RSleep(60)
+                    RSleep(80)
                     Send {vk0Dsc1C Up}
                     RSleep(1000)
                 }
@@ -745,68 +745,68 @@ restartGTA(isWinner)
 
             RSleep(500)
             Send {vk1Bsc01 Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk1Bsc01 Up}
             RSleep(1000)
 
             Send {vk27sc14D Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk27sc14D Up}
             RSleep(1000)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Send {vk28sc150 Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk28sc150 Up}
-            RSleep(300)
+            RSleep(350)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Loop, 3
             {
                 Send {vk28sc150 Down}
-                RSleep(60)
+                RSleep(80)
                 Send {vk28sc150 Up}
-                RSleep(300)
+                RSleep(350)
             }
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Loop, 7
             {
                 Send {vk28sc150 Down}
-                RSleep(60)
+                RSleep(80)
                 Send {vk28sc150 Up}
-                RSleep(300)
+                RSleep(350)
             }
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(500)
 
             Send {vk0Dsc1C Down}
-            RSleep(60)
+            RSleep(80)
             Send {vk0Dsc1C Up}
             RSleep(3000)
 
@@ -1031,7 +1031,7 @@ GTA_Click(x, y)
     Sleep, %hold%
     SendEvent {LButton Up}
     
-    RSleep(300) ; Pause nach dem Klick
+    RSleep(350) ; Pause nach dem Klick
 }
 
 ; =========================================================
