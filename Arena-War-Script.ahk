@@ -491,6 +491,7 @@ restartGTA(isWinner)
     Sleep, 500
 
     WinClose, ahk_class Rockstar Games Launcher
+    WinClose, ahk_class UnrealWindow
     Process, Close, LauncherLauncher.exe
     Process, Close, Launcher.exe
     Process, Close, PlayGTAV.exe
