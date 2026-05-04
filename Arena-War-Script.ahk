@@ -627,7 +627,7 @@ restartGTA(isWinner)
             }
             Sleep, 200
             GTA_Click(X, Y)
-            Sleep, 500
+            Sleep, 2000
 
             Loop
             {
