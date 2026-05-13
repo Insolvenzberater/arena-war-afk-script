@@ -529,7 +529,7 @@ restartGTA(isWinner)
     ParkMouse()
     Loop
     {
-        (GTA_MAINMENU_R:=SafeFindText(X, Y, GTA_MAINMENU))
+        (GTA_MAINMENU_R := SafeFindText(X, Y, GTA_MAINMENU)) || (GTA_MAINMENU_R := SafeFindText(X, Y, GTA_MAINMENU_ALT))
         (SKIP_Button_R:=FindTextLang(X, Y, SKIP_Button, SKIP_BUTTON_DE))
 
         if (A_TickCount - StartTime > MaxWaitingTime)
@@ -550,8 +550,10 @@ restartGTA(isWinner)
         Loop
         {
             GTA_MAINMENU_R := SafeFindText(X, Y, GTA_MAINMENU)
+            if (!GTA_MAINMENU_R)
+            GTA_MAINMENU_R := SafeFindText(X, Y, GTA_MAINMENU_ALT)
             if (GTA_MAINMENU_R)
-                break
+            break
             Sleep, 100
         }
     }
