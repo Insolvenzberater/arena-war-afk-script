@@ -542,6 +542,7 @@ restartGTA(isWinner)
     Sleep, 500
     if (SKIP_Button_R != 0)
     {
+        WinActivate,AHK_exe GTA5_Enhanced.exe
         Send {vk0Dsc1C Down}
         RSleep(80)
         Send {vk0Dsc1C Up}
@@ -560,6 +561,7 @@ restartGTA(isWinner)
 
     if (!isWinner)   ; Helper oeffnet social club und wartet auf invite
     {
+        WinActivate,AHK_exe GTA5_Enhanced.exe
         RSleep(2000)
         Send {vk24sc147 Down}
         RSleep(80)
