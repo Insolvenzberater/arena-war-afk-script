@@ -560,7 +560,7 @@ restartGTA(isWinner)
 
     if (!isWinner)   ; Helper oeffnet social club und wartet auf invite
     {
-        RSleep(1000)
+        RSleep(2000)
         Send {vk24sc147 Down}
         RSleep(80)
         Send {vk24sc147 Up}
