@@ -27,6 +27,3 @@ AutoHotkey script for automating Arena War AFK grinding in GTA V Enhanced.
 
 ## Notes
 This project includes FindText. Please see the LICENSE file for licensing details.
-
-## Version
-v1.0.0
