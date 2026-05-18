@@ -3,11 +3,11 @@
 AutoHotkey script for automating Arena War AFK grinding in GTA V Enhanced.
 
 ## Features
-- Helper, Winner and Winner2 modes
-- 2-player and 3-player support
-- Restart logic with auto-resume
+- Support for 2 Player(1 Winner, 1 Loser) and 3 Player(2 Winner 1 Loser)
+- Restart logic with auto-resume (to fix GTAOnline kicks)
+- Script automatically restarts GTA and initializing a new Arena War Lobby without User Input
 - FindText-based detection
-- Steam and Epic launcher support
+- Steam and Epic launcher support (could also do Rockstar Launcher Support, but am too lazy. Request it or write an issue if i should do it xD) (or do it yourself with chatgpt)
 
 ## Requirements
 - AutoHotkey v1
