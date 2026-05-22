@@ -659,7 +659,7 @@ restartGTA(isWinner)
                 (MAINMENU_Story_R:=SafeFindText(X, Y, MAINMENU_Story))
             } Until (MAINMENU_Story_R != 0)
 
-            Sleep, 500
+            Sleep, 1500
             Send {vk0Dsc1C Down}
             RSleep(80)
             Send {vk0Dsc1C Up}
