@@ -1,7 +1,7 @@
 # Arena War AFK Script
 
 [![Watch the video](https://img.youtube.com/vi/es0MtzoEYOA/maxresdefault.jpg)](https://youtu.be/es0MtzoEYOA)
-
+https://youtu.be/es0MtzoEYOA
 AutoHotkey script for automating Arena War AFK grinding in GTA V Enhanced.
 
 ---
