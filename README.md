@@ -77,25 +77,20 @@ Download the ZIP from the Releases page and extract it anywhere.
 
 ### 3. Prepare GTA Settings (IMPORTANT)
 
-Before generating FindText strings, GTA must temporarily use these settings:
+Before generating FindText strings in Step 6, GTA must use:
 
 - Resolution: `1920x1080`
 - Display Mode: `Windowed Fullscreen`
-  These settings are only required during the FindText generation step later in the setup process.
 
-Permanent Required Settings
+Permanent required setting:
+
 - Online Spawn Location: `Mansion`  
   (only tested with the Vinewood Mansion)
-  The bed must appear on the right side after waking up in GTA Online, otherwise the restart routine may fail.
 
-After FindText (Step 6) setup:
-- the script automatically saves your original GTA settings
-- switches GTA to:
-  - `1920x1080`
-  - `30 FPS`
-- and restores your original settings when stopping the script with `F2`
+The bed must appear on the right side after waking up, otherwise the restart routine may fail.
 
-So you only need to configure GTA correctly once for FindText generation.
+> The 1920x1080 setup is only needed for FindText generation.
+> After setup, the script automatically applies optimized AFK settings and restores your original settings when stopping the script with `F2`.
 
 ---
 
