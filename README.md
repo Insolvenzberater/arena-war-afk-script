@@ -10,7 +10,7 @@ This project would not exist without these people.
   The original creator who introduced the Arena War automation idea and inspired the entire concept.  
   https://www.youtube.com/@ReiDaTecnologia
 
-- **gracier**  
+- **Graycier**  
   Created an alternative script version that later evolved into the continuation and foundation of this project.
 ## Features
 - Support for 2 Player(1 Winner, 1 Loser) and 3 Player(2 Winner 1 Loser)
