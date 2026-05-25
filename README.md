@@ -35,6 +35,7 @@ This project would not exist without these people.
   - Automatically adjusts fan profiles while the script is running
   - Turns off RGB lighting during AFK sessions
   - Restores all previous settings when stopping the script with `F2`
+  - Optional extended AHK version with FanControl and SignalRGB integration included in the repository
 
 - FindText-based detection
 
@@ -176,6 +177,22 @@ For proper synchronization, always start the scripts in this order:
 `Winner2` must be started first because it is the first player invited during the lobby setup process.
 
 If the scripts are started in the wrong order, the automation will still recover automatically, but it may waste time inside synchronization and restart loops.
+
+---
+
+### 9. Stop the Script Properly
+
+To stop the script, always press `F2`.
+
+Pressing `F2` will:
+- stop the automation
+- close GTA and Rockstar-related processes
+- restore your personal GTA settings
+- restore optional FanControl and SignalRGB settings, if you use the extended version
+
+Do not kill the script manually through Task Manager or by closing AutoHotkey directly.
+
+If you do, your GTA settings may not be restored correctly.
 
 ---
 
