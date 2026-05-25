@@ -2,6 +2,16 @@
 [![Watch the video](https://img.youtube.com/vi/es0MtzoEYOA/maxresdefault.jpg)](https://youtu.be/es0MtzoEYOA)
 AutoHotkey script for automating Arena War AFK grinding in GTA V Enhanced.
 
+## ❤️ Special Thanks
+
+This project would not exist without these people.
+
+- **ReiDaTecnologia**  
+  The original creator who introduced the Arena War automation idea and inspired the entire concept.  
+  https://www.youtube.com/@ReiDaTecnologia
+
+- **gracier**  
+  Created an alternative script version that later evolved into the continuation and foundation of this project.
 ## Features
 - Support for 2 Player(1 Winner, 1 Loser) and 3 Player(2 Winner 1 Loser)
 - Restart logic with auto-resume (to fix GTAOnline kicks)
