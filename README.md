@@ -88,7 +88,7 @@ Permanent required setting:
 - Online Spawn Location: `Mansion`  
   (only tested with the Vinewood Mansion)
 
-The bed must appear on the right side after waking up, otherwise the restart routine may fail.
+The bed must appear on the right side after waking up, otherwise the restart routine will fail.
 
 > The 1920x1080 setup is only needed for FindText generation.
 > After setup, the script automatically applies optimized AFK settings and restores your original settings when stopping the script with `F2`.
